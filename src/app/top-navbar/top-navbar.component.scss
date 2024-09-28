@@ -1,0 +1,23 @@
+.navbar {
+    background-color: #f8f9fc;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 250px; // Sidebar width
+  
+    input {
+      padding: 10px;
+      width: 300px;
+    }
+  
+    .navbar-profile {
+      display: flex;
+      align-items: center;
+      img {
+        border-radius: 50%;
+        margin-left: 10px;
+      }
+    }
+  }
+  

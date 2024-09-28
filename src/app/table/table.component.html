@@ -1,0 +1,21 @@
+<div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Position</th>
+          <th>Office</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let employee of employees; let i = index">
+          <td>{{ i + 1 }}</td>
+          <td>{{ employee.name }}</td>
+          <td>{{ employee.position }}</td>
+          <td>{{ employee.office }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
